@@ -1,7 +1,5 @@
-"use strict";
 // Map to hold application states
 const states = new Map();
-exports.states = states;
 /**
  * adds a state to be registered when the app loads
  * @param {string} name - route/state name (ex: app.home)
@@ -10,7 +8,6 @@ exports.states = states;
 function addState(name, config) {
     states.set(name, config);
 }
-exports.addState = addState;
 /**
  * loops through the registered states and adds them to the UI-Router $stateProvider
  * @param {IStateProvider} stateProvider
@@ -30,4 +27,4 @@ class AppRouter {
     }
 }
 AppRouter.$inject = ['$stateProvider'];
-exports.AppRouter = AppRouter;
+export { states, addState, AppRouter };
