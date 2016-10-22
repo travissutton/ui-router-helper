@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "@types/angular-ui-router": "^1.1.34"
+  },
+  "jspm": {
+    "format": "es6"
   }
 }
