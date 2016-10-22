@@ -1,6 +1,6 @@
 {
   "name": "ui-router-helper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ES6 based helper module for ui-router 1.0 and Angular 1",
   "main": "dst/index.js",
   "scripts": {},
