@@ -1,0 +1,29 @@
+{
+  "name": "ui-router-helper",
+  "version": "0.1.0",
+  "description": "ES6 based helper module for ui-router 1.0 and Angular 1",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travissutton/ui-router-helper.git"
+  },
+  "keywords": [
+    "ui-router",
+    "angular",
+    "helper"
+  ],
+  "author": "Travis Sutton <tsutton@ayetier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travissutton/ui-router-helper/issues"
+  },
+  "homepage": "https://github.com/travissutton/ui-router-helper#readme",
+  "dependencies": {
+    "angular-ui-router": "^1.0.0-beta",
+    "angular": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/angular-ui-router": "^1.1.34"
+  }
+}
